@@ -9,9 +9,9 @@ var router = express.Router();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-var database = require('config/database');
+var database = require('./config/database');
 mongoose.connect(database.url);
 
-require('app/routes')(app, router);
+require('./app/routes')(app, router);
 
 app.listen(3000);
