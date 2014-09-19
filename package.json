@@ -1,0 +1,18 @@
+{
+  "name": "groupme-statistics",
+  "version": "0.0.0",
+  "description": "A groupme message statistics analyser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.9.3",
+    "request": "~2.44.0",
+    "mongoose": "~3.8.16",
+    "body-parser": "~1.8.2"
+  }
+}
